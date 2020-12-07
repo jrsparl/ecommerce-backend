@@ -12,6 +12,6 @@ A node.js express server application using Sequelize as a backend for an ecommer
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-<a href="https://drive.google.com/file/d/1q4Gj2AIawX4-MG8YwVDVN2loJa0kaPB9/view">Link to demo video</a><br>
+<a href="https://drive.google.com/file/d/1q4Gj2AIawX4-MG8YwVDVN2loJa0kaPB9/view?usp=sharing">Link to demo video</a><br>
 
  

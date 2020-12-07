@@ -9,8 +9,8 @@ router.get('/', (req, res) => {
   Category.findAll({
       include: [
         {
-         Model: Product,
-         attributes:["product_name"], 
+         model: Product,
+         attributes:["product_name"] 
         },
       ],
     })
@@ -36,7 +36,11 @@ router.get('/:id', (req, res) => {
         }
       ]
     },
-  )
+  ).then(dbCategoryData => res.json(dbCategoryData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 
 
 
